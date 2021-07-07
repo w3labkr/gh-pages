@@ -1,0 +1,21 @@
+{
+  "name": "gh-pages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:w3labkr/gh-pages.git",
+  "author": "www <git@w3lab.kr>",
+  "license": "MIT",
+  "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+      "@vuepress/plugin-active-header-links": "^1.8.2",
+      "@vuepress/plugin-back-to-top": "^1.8.2",
+      "@vuepress/plugin-google-analytics": "^1.8.2",
+      "@vuepress/plugin-medium-zoom": "^1.8.2",
+      "@vuepress/plugin-nprogress": "^1.8.2",
+      "vuepress": "^1.8.2"
+  },
+  "dependencies": {}
+}
