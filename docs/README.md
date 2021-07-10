@@ -226,8 +226,19 @@ $ git config user.email <USERMAIL>
 Generate a new single SSH key without password on macOS.
 
 ```shell
-$ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -C <user@example.com> -N ''
+$ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -C "user@example.com" -N ''
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_rsa
 $ pbcopy < ~/.ssh/id_rsa.pub
+```
+
+Generate a new single SSH key without password on window.
+
+```shell
+$ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -C "user@example.com" -N ''
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_rsa
+$ vi ~/.ssh/id_rsa.pub
 ```
 
 Generate new multiple SSH keys without password on macOS.
