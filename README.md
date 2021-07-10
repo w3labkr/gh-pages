@@ -6,4 +6,4 @@ Frequently used vuepress settings.
 
 ## Document
 
-Please visit the [document site](w3labkr.github.io/gh-pages/).
+Please visit the [document site](https://w3labkr.github.io/gh-pages/).
