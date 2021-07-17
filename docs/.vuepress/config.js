@@ -9,7 +9,7 @@ module.exports = {
       { text: "Configure", link: "/#configure" },
       { text: "Deploying", link: "/#deploying" },
       { text: "Travis CI", link: "/#travis-ci" },
-      { text: "Github", link: "https://github.com/w3labkr/vuepress" },
+      { text: "Github", link: "https://github.com/w3labkr/gh-pages" },
     ],
     sidebar: "auto",
     search: true,
